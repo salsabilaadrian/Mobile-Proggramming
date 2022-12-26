@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Regis"
+    android:gravity="center_vertical"
+    android:padding="40dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:text="Register"
+        android:paddingBottom="30dp"
+        />
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/btn_color3"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Email"
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:id="@+id/inputEmail"
+        android:layout_gravity="center_horizontal"
+        android:hint="Input Email"
+        android:paddingStart="15dp"
+        />
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/btn_color3"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Username"
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:id="@+id/inputUsername"
+        android:layout_gravity="center_horizontal"
+        android:hint="Input Username"
+        android:paddingStart="15dp"
+        />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/btn_color3"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Password"
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:id="@+id/inputPassword"
+        android:layout_gravity="center_horizontal"
+        android:hint="Input Password"
+        android:paddingStart="15dp"
+        />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/btn_color3"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Confirm Password"
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputConfirmPassword"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        android:hint="Confirm Password"
+        android:paddingStart="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/regis_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:backgroundTint="@color/black"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:textSize="20dp"
+        app:cornerRadius="50dp"
+        android:onClick="regis"
+        />
+</LinearLayout>
